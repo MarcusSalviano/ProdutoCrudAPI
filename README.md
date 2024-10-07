@@ -98,13 +98,12 @@ docker compose up --build
 ### ProdutoControler
 - Controller responsável pelo CRUD de Produto.
 - Todos os endpoints desse controlador precisam de um token para validação do usuário.
-## ReceiverService Endpoints
 
 ### **[POST]**
 `/api/produtos` - endpoint para cadastro de um produto  
 - Entrada: JSON de Produto.  
 - Ação: Cadastra o produto recebido, no banco, de acordo com os parêmetros passados.  
-- Saída: JSON com todos o receiver cadastrado e status 200.  
+- Saída: JSON com todos o produtos cadastrado e status 200.  
 
 ### **[GET]**
 `/api/produtos` - endpoint para buscar todos os produtos cadastrados no banco  
