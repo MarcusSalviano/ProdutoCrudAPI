@@ -2,7 +2,7 @@
 
 # ![](/assets/configuracao.png) Produto CRUD API
 
-> Este é um projeto é uma API de um CRUD (Create, Read, Update, Delete) de produto desenvolvido em C# que se comunicam com o MySql para persistência dos dados.
+> Este é um projeto é uma API de um CRUD (Create, Read, Update, Delete) de produto desenvolvido em C# que se comunicam com o MySql para persistência dos dados. A aplicação também utiliza Swagger para documentação da API e inclui testes de unidade.
 
 ## Tecnologias Utilizadas
 ### API
@@ -11,6 +11,8 @@
 Framework para mapeamento entre os modelos e DTOs
 - Newtonsoft  
 Framework para serialização de JSON
+- Swagger  
+Framework para documentação da API Rest
 ### Testes unitários
 - xUnit 2.5.3  
 Framework para os testes unitários
@@ -82,7 +84,12 @@ docker compose up --build
 
 4. O token adquirido deve ser passado todos os endpoints do CRUD de Produto
 
+## Documentação da API
+A documentação da API gerada pelo Swagger pode ser acessada em:
 
+```bash
+http://localhost:5025/swagger/index.html
+```
 
 ## Funcionalidades
 ### LoginController

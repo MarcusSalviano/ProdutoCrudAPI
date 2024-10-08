@@ -487,3 +487,6 @@ ProdutoCrudAPI/bin/
 ProdutoCrudAPI/obj/
 
 dos2unix.exe
+
+
+http://localhost:5025/swagger/index.html

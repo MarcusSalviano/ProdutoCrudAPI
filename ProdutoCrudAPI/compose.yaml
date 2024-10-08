@@ -25,6 +25,7 @@ services:
       - 5025:8080
     environment:
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Server=db;Port=3306;Database=produto_db;User=root;Password=root;
     depends_on:
       db:
